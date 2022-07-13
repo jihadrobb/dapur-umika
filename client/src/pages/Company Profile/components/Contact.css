@@ -1,0 +1,80 @@
+.element-container {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  bottom: 0;
+  background-color: #9c7071;
+  background-image: radial-gradient(#ffe8e8 1.1px, transparent 1.1px),
+    radial-gradient(#ffe8e8 1.1px, #9c7071 1.1px);
+  background-size: 44px 44px;
+  background-position: 0 0, 22px 22px;
+  padding-top: 30px;
+}
+
+.contact-row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-heading {
+  font-size: 50px;
+  color: #fff;
+}
+
+.iframe-map {
+  width: 35vw;
+  height: 20vw;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.contact-address {
+  color: #fff;
+  flex-wrap: wrap;
+  max-width: 180px;
+  margin: 0 100px;
+  align-self: baseline;
+}
+
+.contact-address-heading {
+  font-size: larger;
+  margin-bottom: 10px;
+}
+
+.social-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: baseline;
+}
+
+.footer-copyright {
+  font-size: 15px;
+  color: #fff;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 960px) {
+  .contact-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .iframe-map {
+    width: 85vw;
+    max-width: 550px;
+    height: 30vh;
+  }
+
+  .contact-address {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,19 @@
+.social-media-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media-container:hover {
+  cursor: pointer;
+}
+
+.social-media-logo {
+  width: 50px;
+}
+
+.social-media-name {
+  margin-left: 10px;
+  font-size: 20px;
+}

@@ -1,0 +1,19 @@
+.price-list {
+  border: 1px solid #000;
+  border-radius: 5%;
+  animation: fadeInOut 5s ease-in-out infinite;
+}
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

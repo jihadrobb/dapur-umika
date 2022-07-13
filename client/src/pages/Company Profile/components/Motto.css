@@ -1,0 +1,74 @@
+.motto-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffe8e8;
+  background-image: radial-gradient(#9c7071 1.1px, transparent 1.1px),
+    radial-gradient(#9c7071 1.1px, #ffe8e8 1.1px);
+  background-size: 44px 44px;
+  background-position: 0 0, 22px 22px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 150px;
+}
+
+.motto-heading {
+  font-size: 12vw;
+  font-family: 'Flor', 'Boheme Floral', sans-serif;
+  padding: 0;
+  color: #9c7071;
+  margin-bottom: 50px;
+}
+
+.motto-description {
+  font-size: 8vw;
+  font-family: 'Boheme Floral', sans-serif;
+  font-weight: bold;
+  color: rgb(78, 71, 71);
+}
+
+@media screen and (max-width: 960px) {
+  .motto-heading {
+    font-size: 20vw;
+    line-height: 18vw;
+    text-align: center;
+  }
+
+  .motto-description {
+    font-size: 10vw;
+    line-height: 15vw;
+  }
+}
+
+@font-face {
+  font-family: 'Bobby Jones'; /*a name to be used later*/
+  src: url('../../../assets/fonts/Bobby\ Jones/Bobby\ Jones\ Soft.otf'); /*URL to font*/
+}
+
+@font-face {
+  font-family: 'Dancing Script'; /*a name to be used later*/
+  src: url('../../../assets/fonts/Dancing\ Script/DancingScript-VariableFont_wght.ttf'); /*URL to font*/
+}
+
+@font-face {
+  font-family: 'Tangerine'; /*a name to be used later*/
+  src: url('../../../assets/fonts/Tangerine/Tangerine-Regular.ttf'); /*URL to font*/
+}
+
+@font-face {
+  font-family: 'Boheme Floral'; /*a name to be used later*/
+  src: url('../../../assets/fonts/Boheme\ Floral/Boheme\ Floral.ttf'); /*URL to font*/
+}
+
+@font-face {
+  font-family: 'Flor'; /*a name to be used later*/
+  src: url('../../../assets/fonts/Flor/FlorPersonalUseRegular-rgpoy.ttf'); /*URL to font*/
+}

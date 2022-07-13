@@ -1,0 +1,125 @@
+.home_hero-section {
+  color: #fff;
+  display: flex;
+  min-height: 95vh;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  background-color: #ffe8e8;
+  background-image: radial-gradient(#9c7071 1.1px, transparent 1.1px),
+    radial-gradient(#9c7071 1.1px, #ffe8e8 1.1px);
+  background-size: 44px 44px;
+  background-position: 0 0, 22px 22px;
+}
+
+.hero-container {
+  /* padding: 0; */
+  margin: 0;
+}
+
+.home_hero-row {
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  margin-right: -15px;
+  margin-bottom: -15px;
+  margin-left: -15px;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.col {
+  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 1;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+.home_hero-text-wrapper {
+  max-width: 540px;
+  padding: 0;
+  align-items: center;
+}
+
+.left {
+  text-align: right;
+}
+
+.top-line {
+  color: #012d59;
+  font-size: 24px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-size: 52px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #f7f8fa;
+  /* -webkit-text-stroke: 2px #000; */
+}
+
+.dark {
+  color: #1c2237;
+}
+
+.dark-background {
+  background-color: #9c7071;
+  background-image: radial-gradient(#ffe8e8 1.1px, transparent 1.1px),
+    radial-gradient(#ffe8e8 1.1px, #9c7071 1.1px);
+  background-size: 44px 44px;
+  background-position: 0 0, 22px 22px;
+}
+
+.home_hero-subtitle {
+  /* max-width: 450px; */
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.home_hero-img-wrapper {
+  max-width: 555px;
+}
+
+.home_hero-img {
+  max-width: 95%;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 10px;
+  padding-right: 0;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+@media screen and (max-width: 991px) {
+  .hero-container {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home_hero-text-wrapper {
+    padding-bottom: 65px;
+  }
+
+  .col {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
